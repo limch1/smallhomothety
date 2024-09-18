@@ -33,6 +33,45 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="speedtober2024/speedtober2024.js"></script>
   <style media="screen">
+
+    .speedtober-flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .h2-smaller {
+      font-family: "Rubik", sans-serif;
+    }
+
+    .boxtext {
+      text-align: center;
+    }
+
+    .speedtober-box {
+      padding-top: 10px;
+      width: 400px;
+      border-style: dotted;
+      border-radius: 10px;
+      border-width: 5px;
+      border: 5px dotted #e4e1ff;
+    }
+
+    @media only screen and (max-width: 1200px) {
+      .rando-container {
+        width: 90%;
+      }
+
+    }
+
+    @media only screen and (max-width: 700px) {
+      .rando-container {
+        width:  100%;
+      }
+    }
+
   </style>
 </head>
 
@@ -79,6 +118,43 @@
             </table>
           </div>
         </div>
+
+        <h2>Rules</h2>
+        <p>Use the navigator above to navigate to the day that you want to speedrun for, then use the form to submit your time.</p>
+        <p>Please do not spam the forms! You will get one entry per day.</p>
+
+        <div class="speedtober-flex">
+
+          <div class="speedtober-box" id="regular" style="background:
+          linear-gradient(#e4e1ff 0 0) padding-box,
+          linear-gradient(to right, #E583AB, #83abe5, #E583AB, #83abe5) border-box">
+            <h2 class="h2-smaller">Speedruns</h2>
+            <p>Select which ruleset you are going to run <i>(NMG, 1432, NMMS or AG)</i> and download the relevant splits from <a href="https://hksplitmaker.com/">HKSplitMaker</a>. </p>
+            <p>You don't need to record your run, but feel free to share your pb to the daily thread in <a href="/404.html">#hk-community-events</a>, and submit your time to the leaderboards via the navigator above.</p>
+          </div>
+
+          <div class="speedtober-box" id="ILs" style="background:
+          linear-gradient(#ffe1fb 0 0) padding-box,
+          linear-gradient(to right, #E583AB, #83abe5, #E583AB, #83abe5) border-box">
+            <h2 class="h2-smaller">ILs</h2>
+            <p>Watch the linked example video at the top of each daily page, or find it in the discord discussion in <a href="/404.html">#hk-community-events</a>. Then, download the splits file, or if it's a single room, feel free to set the timer up yourself.</p>
+            <p>Once you're done, feel free to share your PB in discord or in the leaderboards on this site!</p>
+          </div>
+
+        </div>
+
+          <div class="speedtober-box" id="rando" style="margin:auto; margin-top: 5%; background:
+        linear-gradient(#e1ffe8 0 0) padding-box,
+        linear-gradient(to right, #E583AB, #83abe5, #E583AB, #83abe5) border-box">
+            <h2 class="h2-smaller">Rando/Plandos</h2>
+            <div class="boxtext">
+              <p>For each week, players will have one week (or slightly longer at the end of the month) to complete a playthrough of the relevant rando. There are two categories, one for more "rando"-esque plandomizers, and one for harder, skip-focused plandomizers.</p>
+              <p>If you don't want to record your time, that's okay! You can put the time that appears on the stats screen in if you'd like, or just tick "completed" to be added to an honorary leaderboard.</p>
+              <p>Don't worry if you've already beaten the plando before, you're still allowed to compete! Just make sure you tick the "already played" option when you go to submit.</p>
+              <p>Instructions on how to set up plandomizers can be found <a href="/rando/plandoguide">here.</a></p>
+            </div>
+          </div>
+
       </div>
     </div>
   </div>
