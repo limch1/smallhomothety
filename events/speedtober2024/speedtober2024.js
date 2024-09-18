@@ -53,16 +53,19 @@ window.addEventListener("DOMContentLoaded", () => {
         .then(data =>{
             console.log();
             let table = document.getElementById("speedtoberNav");
+
+            //TODO: implement case for alternate notes+splits
+
             for (i=0; i<Object.keys(data).length; i++){
                 let d = data[(i+1).toString()];
-                if ([1, 7, 14, 21].includes(i+1)){
-                    randoValue = d["rando"]
-                    hardRandoValue = d["randohard"]
+                if ([1, 8, 15, 22].includes(i+1)){
+                    randoValue = d["rando"]["name"]
+                    hardRandoValue = d["randohard"]["name"]
                 } else {
                     randoValue = " "
                     hardRandoValue = " "
                 }
-                let newDate = new scheduleDay("Oct " + (i+1).toString(), d["category"]["name"], d["rando"]["name"], d["randohard"]["name"], d["IL"]["name"], d["runners"])
+                let newDate = new scheduleDay("Oct " + (i+1).toString(), d["category"]["name"], randoValue, hardRandoValue, d["IL"]["name"], d["runners"])
                 console.log(newDate.category);
                 newDate.insertValues(table);
             }

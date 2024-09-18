@@ -4,6 +4,7 @@
             "name": "Grubsong",
             "description": "",
             "notes": "https://pastebin.com/4nK0dMSp",
+            "splits": "https://hksplitmaker.com/?builtin=grubsong",
             "1432": {
                 
             },
@@ -41,5 +42,203 @@
             }
         },
         "runners": 0
+    },
+    "2": {
+        "category": {
+            "name": "Pure Snail",
+            "description": "",
+            "notes": "https://pastebin.com/4nK0dMSp",
+            "splits": "https://hksplitmaker.com/?builtin=pure-snail",
+            "1432": {
+                
+            },
+            "NMG": {
+
+            },
+            "NMMS": {
+
+            },
+            "AG": {
+
+            }
+        },
+        "IL": {
+            "name": "Dummy IL",
+            "description": "",
+            "wr": "",
+            "leaderboard":{
+                
+            }
+        },
+        "runners": 0
+    },
+    "3": {
+        "category": {
+            "name": "3 Vessel Fragments",
+            "description": "",
+            "notes": "https://pastebin.com/ZqDk8rQ0",
+            "notesalt": "https://pastebin.com/4mE0UWtG",
+            "splits": "https://hksplitmaker.com/?builtin=3vf-kings-station",
+            "1432": {
+                
+            },
+            "NMG": {
+
+            },
+            "NMMS": {
+
+            },
+            "AG": {
+
+            }
+        },
+        "IL": {
+            "name": "Dummy IL",
+            "description": "",
+            "wr": "",
+            "leaderboard":{
+                
+            }
+        },
+        "runners": 0
+    },
+    "4": {
+        "category": {
+            "name": "4 Mask Shards",
+            "description": "",
+            "notes": "https://pastebin.com/YZf8CZAd",
+            "splits": "https://hksplitmaker.com/?builtin=4ms",
+            "1432": {
+                
+            },
+            "NMG": {
+
+            },
+            "NMMS": {
+
+            },
+            "AG": {
+
+            }
+        },
+        "IL": {
+            "name": "Dummy IL",
+            "description": "",
+            "wr": "",
+            "leaderboard":{
+                
+            }
+        },
+        "runners": 0
+    },
+    "5": {
+        "category": {
+            "name": "5 Mimics",
+            "description": "",
+            "notes": "https://pastebin.com/0KVWK3cg",
+            "splits": "https://hksplitmaker.com/?builtin=5-mimics",
+            "1432": {
+                
+            },
+            "NMG": {
+
+            },
+            "NMMS": {
+
+            },
+            "AG": {
+
+            }
+        },
+        "IL": {
+            "name": "Dummy IL",
+            "description": "",
+            "wr": "",
+            "leaderboard":{
+                
+            }
+        },
+        "runners": 0
+    },
+    "6": {
+        "category": {
+            "name": "Al1ba/Al2ba",
+            "description": "",
+            "notes": "https://pastebin.com/j3i4uV16",
+            "splits": "https://hksplitmaker.com/?builtin=a1uba",
+            "splitsalt": "https://hksplitmaker.com/?builtin=al2ba",
+            "1432": {
+                "al1uba":{
+
+                },
+                "al2uba":{
+
+                }
+            },
+            "NMG": {
+                "al1uba":{
+
+                },
+                "al2uba":{
+                    
+                }
+            },
+            "NMMS": {
+                "al1uba":{
+
+                },
+                "al2uba":{
+                    
+                }
+            },
+            "AG": {
+                "al1uba":{
+
+                },
+                "al2uba":{
+                    
+                }
+            }
+        },
+        "IL": {
+            "name": "Dummy IL",
+            "description": "",
+            "wr": "",
+            "leaderboard":{
+                
+            }
+        },
+        "runners": 0
+    },
+    "7": {
+        "category": {
+            "name": "PoP%",
+            "description": "",
+            "notes": "https://pastebin.com/KZSZd7XE",
+            "splits": "https://hksplitmaker.com/?builtin=pop-percent",
+            "1432": {
+
+            },
+            "NMG": {
+
+            },
+            "NMMS": {
+
+            },
+            "AG": {
+
+            }
+        },
+        "IL": {
+            "name": "Path of Pain",
+            "description": "",
+            "wr": "https://www.speedrun.com/hollowknight/runs/m7n8r45z",
+            "leaderboard":{
+                
+            }
+        },
+        "runners": 0
     }
+
+    
 }
