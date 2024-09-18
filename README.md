@@ -19,4 +19,4 @@ becomes
 <link rel="stylesheet" href="/stylesheet.css">
 ```
 
-<small>blossom is cute</small>
+<sub>blossom is cute</sub>
