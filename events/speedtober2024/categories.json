@@ -2,9 +2,10 @@
     "1": {
         "category": {
             "name": "Grubsong",
+            "description": "",
+            "notes": "https://pastebin.com/4nK0dMSp",
             "1432": {
-                "vichisuki": "15:32"
-
+                
             },
             "NMG": {
 
@@ -18,21 +19,27 @@
         },
         "rando": {
             "name": "Lever Adventure",
+            "description": "",
+            "link": "https://discord.com/channels/772964112908156938/984299374937006132/984313649319514182",
             "leaderboard": {
-                "vichisuki": "2:00:01"
+                
             }
         },
         "randohard": {
             "name": "not sure yet oops",
+            "description": "",
             "leaderboard":{
-                "vichisuki": "4:00:00"
+                
             }
         },
         "IL": {
             "name": "Dummy IL",
+            "description": "",
+            "wr": "",
             "leaderboard":{
-                "vichisuki": "00:02"
+                
             }
-        }
+        },
+        "runners": 0
     }
 }
