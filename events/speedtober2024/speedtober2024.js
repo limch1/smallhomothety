@@ -14,7 +14,6 @@ class scheduleDay {
     }
 
     insertValues(table){
-        console.log("insideInsertValues()")
         let row = document.createElement("tr");
 
         let dateCell = document.createElement("td");
@@ -56,7 +55,14 @@ window.addEventListener("DOMContentLoaded", () => {
             let table = document.getElementById("speedtoberNav");
             for (i=0; i<Object.keys(data).length; i++){
                 let d = data[(i+1).toString()];
-                let newDate = new scheduleDay("Oct " + (i+1).toString(), d["category"], d["rando"], d["randohard"], d["IL"], d["runners"])
+                if ([1, 7, 14, 21].includes(i+1)){
+                    randoValue = d["rando"]
+                    hardRandoValue = d["randohard"]
+                } else {
+                    randoValue = " "
+                    hardRandoValue = " "
+                }
+                let newDate = new scheduleDay("Oct " + (i+1).toString(), d["category"]["name"], d["rando"]["name"], d["randohard"]["name"], d["IL"]["name"], d["runners"])
                 console.log(newDate.category);
                 newDate.insertValues(table);
             }

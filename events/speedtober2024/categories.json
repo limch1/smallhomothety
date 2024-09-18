@@ -1,9 +1,38 @@
 {
     "1": {
-        "category": "Grubsong",
-        "rando": "Lever Adventure",
-        "randohard": "",
-        "IL": "dummy IL",
-        "runners": 0
+        "category": {
+            "name": "Grubsong",
+            "1432": {
+                "vichisuki": "15:32"
+
+            },
+            "NMG": {
+
+            },
+            "NMMS": {
+
+            },
+            "AG": {
+
+            }
+        },
+        "rando": {
+            "name": "Lever Adventure",
+            "leaderboard": {
+                "vichisuki": "2:00:01"
+            }
+        },
+        "randohard": {
+            "name": "not sure yet oops",
+            "leaderboard":{
+                "vichisuki": "4:00:00"
+            }
+        },
+        "IL": {
+            "name": "Dummy IL",
+            "leaderboard":{
+                "vichisuki": "00:02"
+            }
+        }
     }
 }
