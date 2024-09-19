@@ -49,25 +49,27 @@ function nextWeek(){
         tableWeek += 1
         populateTables(1 + ((7*tableWeek) - 7), 7 + (tableWeek*7 - 7))
         console.log(1 + ((7*tableWeek) - 7), 7 + (tableWeek*7 - 7))
-        weekName.textContent = "Week " + tableWeek.toString()
+        weekHeader.textContent = "Week " + tableWeek.toString()
     } else if (tableWeek == 4) {
         tableWeek += 1
         populateTables(1 + ((7*tableWeek) - 7), 31)
         console.log(1 + ((7*tableWeek) - 7), 31)
-        weekName.textContent = "Week " + tableWeek.toString()
+        weekHeader.textContent = "Week " + tableWeek.toString()
     } else if (tableWeek === 5){
         tableWeek = 5
     }
     
-    
 }
 
 function lastWeek(){
+
+    let weekHeader = document.getElementById("weekName")
+
     if (tableWeek > 1){
         tableWeek -= 1
         populateTables(1 + ((7*tableWeek) - 7), 7 + (tableWeek*7 - 7))
         console.log(1 + ((7*tableWeek) - 7), 7 + (tableWeek*7 - 7))
-        weekName.textContent = "Week " + tableWeek.toString()
+        weekHeader.textContent = "Week " + tableWeek.toString()
     } else if (tableWeek === 1){
         tableWeek = 1
     }
