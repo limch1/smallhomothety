@@ -1,8 +1,3 @@
-// function putData() {
-
-// }
-
-
 class scheduleDay {
     constructor(date, category, rando, randohard, il, runners){
         this.date = date;
@@ -46,17 +41,52 @@ class scheduleDay {
 
 }
 
-window.addEventListener("DOMContentLoaded", () => {
+function nextWeek(){
 
+    let weekHeader = document.getElementById("weekName")
+
+    if (tableWeek < 4){
+        tableWeek += 1
+        populateTables(1 + ((7*tableWeek) - 7), 7 + (tableWeek*7 - 7))
+        console.log(1 + ((7*tableWeek) - 7), 7 + (tableWeek*7 - 7))
+        weekName.textContent = "Week " + tableWeek.toString()
+    } else if (tableWeek == 4) {
+        tableWeek += 1
+        populateTables(1 + ((7*tableWeek) - 7), 31)
+        console.log(1 + ((7*tableWeek) - 7), 31)
+        weekName.textContent = "Week " + tableWeek.toString()
+    } else if (tableWeek === 5){
+        tableWeek = 5
+    }
+    
+    
+}
+
+function lastWeek(){
+    if (tableWeek > 1){
+        tableWeek -= 1
+        populateTables(1 + ((7*tableWeek) - 7), 7 + (tableWeek*7 - 7))
+        console.log(1 + ((7*tableWeek) - 7), 7 + (tableWeek*7 - 7))
+        weekName.textContent = "Week " + tableWeek.toString()
+    } else if (tableWeek === 1){
+        tableWeek = 1
+    }
+}
+
+let tableWeek = 1;
+
+function populateTables(start, end){
     fetch('speedtober2024/categories.json')
         .then(res => res.json())
         .then(data =>{
-            console.log();
-            let table = document.getElementById("speedtoberNav");
 
             //TODO: implement case for alternate notes+splits
 
-            for (i=0; i<Object.keys(data).length; i++){
+            let tBody = document.getElementById("stBody")
+
+            tBody.innerHTML = " ";
+
+            for (i=start-1; i<end; i++){
                 let d = data[(i+1).toString()];
                 if ([1, 8, 15, 22].includes(i+1)){
                     randoValue = d["rando"]["name"]
@@ -67,8 +97,12 @@ window.addEventListener("DOMContentLoaded", () => {
                 }
                 let newDate = new scheduleDay("Oct " + (i+1).toString(), d["category"]["name"], randoValue, hardRandoValue, d["IL"]["name"], d["runners"])
                 console.log(newDate.category);
-                newDate.insertValues(table);
+                newDate.insertValues(tBody);
             }
         });
+}
 
+window.addEventListener("DOMContentLoaded", () => {
+    tableWeek = 1;
+    populateTables(1, 7);
 })
