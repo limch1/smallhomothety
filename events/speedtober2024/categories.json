@@ -301,7 +301,7 @@
         },
         "runners": 0
     },
-    "template": {
+    "8": {
         "category": {
             "name": "8 Mask Shards",
             "description": "",
@@ -358,5 +358,82 @@
         },
         "runners": 0
         }
+    },
+    "9": {
+        "category": {
+            "categoryCount": 1,
+            "name": "Cartographer",
+            "description": "",
+            "notes": {"Route Notes":"https://pastebin.com/DMHJxF7x"},
+            "splits": {"Splits":"https://hksplitmaker.com/?builtin=cartographer"},
+            "1432": {
+                "leaderboard":{
+
+                }
+            },
+            "NMG": {
+                "leaderboard":{
+
+                }
+            },
+            "NMMS": {
+                "leaderboard":{
+
+                }
+            },
+            "AG": {
+                "leaderboard":{
+
+                }
+            }
+        },
+        "IL": {
+            "name": "",
+            "description": "",
+            "wr": "",
+            "leaderboard":{
+                
+            }
+        },
+        "runners": 0
+    },
+    "10": {
+        "category": {
+            "categoryCount": 1,
+            "name": "Any%",
+            "description": "As part of a pre-pax marathon, ins0mnia and vichisuki will be running Hollow Knight Any% (1.2.2.1). Feel free to join in with them and race alongside!",
+            "notes": {"Route Notes":"https://pastebin.com/DMHJxF7x"},
+            "splits": {"Splits":"https://hksplitmaker.com/?builtin=cartographer"},
+            "1432": {
+                "leaderboard":{
+
+                }
+            },
+            "NMG": {
+                "leaderboard":{
+
+                }
+            },
+            "NMMS": {
+                "leaderboard":{
+
+                }
+            },
+            "AG": {
+                "leaderboard":{
+
+                }
+            }
+        },
+        "IL": {
+            "name": "Trap Bench",
+            "description": "",
+            "goal": "From the acid entrance of Queen's Gardens, sit on the Trap Bench in Beast's Den. Dash, Claw, CDash, VS and Shaman allowed.",
+            "wr": "",
+            "leaderboard":{
+                
+            }
+        },
+        "runners": 0
     }
 }
