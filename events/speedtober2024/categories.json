@@ -1,21 +1,30 @@
 {
     "1": {
         "category": {
+            "categoryCount": 1,
             "name": "Grubsong",
             "description": "",
-            "notes": "https://pastebin.com/4nK0dMSp",
-            "splits": "https://hksplitmaker.com/?builtin=grubsong",
+            "notes": {"Route Notes":"https://pastebin.com/4nK0dMSp"},
+            "splits": {"Splits":"https://hksplitmaker.com/?builtin=grubsong"},
             "1432": {
-                
+                "leaderboard":{
+
+                }
             },
             "NMG": {
+                "leaderboard":{
 
+                }
             },
             "NMMS": {
+                "leaderboard":{
 
+                }
             },
             "AG": {
+                "leaderboard":{
 
+                }
             }
         },
         "rando": {
@@ -45,21 +54,30 @@
     },
     "2": {
         "category": {
+            "categoryCount": 1,
             "name": "Pure Snail",
             "description": "",
-            "notes": "https://pastebin.com/4nK0dMSp",
-            "splits": "https://hksplitmaker.com/?builtin=pure-snail",
+            "notes": {"Route Notes":"https://pastebin.com/4nK0dMSp"},
+            "splits": {"Splits": "https://hksplitmaker.com/?builtin=pure-snail"},
             "1432": {
-                
+                "leaderboard":{
+
+                }
             },
             "NMG": {
+                "leaderboard":{
 
+                }
             },
             "NMMS": {
+                "leaderboard":{
 
+                }
             },
             "AG": {
+                "leaderboard":{
 
+                }
             }
         },
         "IL": {
@@ -74,22 +92,36 @@
     },
     "3": {
         "category": {
+            "categoryCount": 1,
             "name": "3 Vessel Fragments",
             "description": "",
-            "notes": "https://pastebin.com/ZqDk8rQ0",
-            "notesalt": "https://pastebin.com/4mE0UWtG",
-            "splits": "https://hksplitmaker.com/?builtin=3vf-kings-station",
+            "notes": {
+                "King's Station Route": "https://pastebin.com/ZqDk8rQ0",
+                "Stag Nest Route": "https://pastebin.com/4mE0UWtG"
+            },
+            "splits": {
+                "King's Station Route": "https://hksplitmaker.com/?builtin=3vf-kings-station",
+                "Stag Nest Route": "https://hksplitmaker.com/?builtin=3vf-stag-nest"
+            },
             "1432": {
-                
+                "leaderboard":{
+
+                }
             },
             "NMG": {
+                "leaderboard":{
 
+                }
             },
             "NMMS": {
+                "leaderboard":{
 
+                }
             },
             "AG": {
+                "leaderboard":{
 
+                }
             }
         },
         "IL": {
@@ -104,21 +136,30 @@
     },
     "4": {
         "category": {
+            "categoryCount": 1,
             "name": "4 Mask Shards",
             "description": "",
-            "notes": "https://pastebin.com/YZf8CZAd",
-            "splits": "https://hksplitmaker.com/?builtin=4ms",
+            "notes": {"Route Notes":"https://pastebin.com/YZf8CZAd"},
+            "splits": {"Splits":"https://hksplitmaker.com/?builtin=4ms"},
             "1432": {
-                
+                "leaderboard":{
+
+                }
             },
             "NMG": {
+                "leaderboard":{
 
+                }
             },
             "NMMS": {
+                "leaderboard":{
 
+                }
             },
             "AG": {
+                "leaderboard":{
 
+                }
             }
         },
         "IL": {
@@ -133,21 +174,30 @@
     },
     "5": {
         "category": {
+            "categoryCount": 1,
             "name": "5 Mimics",
             "description": "",
-            "notes": "https://pastebin.com/0KVWK3cg",
-            "splits": "https://hksplitmaker.com/?builtin=5-mimics",
+            "notes": {"Route Notes":"https://pastebin.com/0KVWK3cg"},
+            "splits": {"Splits":"https://hksplitmaker.com/?builtin=5-mimics"},
             "1432": {
-                
+                "leaderboard":{
+
+                }
             },
             "NMG": {
+                "leaderboard":{
 
+                }
             },
             "NMMS": {
+                "leaderboard":{
 
+                }
             },
             "AG": {
+                "leaderboard":{
 
+                }
             }
         },
         "IL": {
@@ -162,17 +212,20 @@
     },
     "6": {
         "category": {
+            "categoryCount": 2,
             "name": "Al1ba/Al2ba",
             "description": "",
-            "notes": "https://pastebin.com/j3i4uV16",
-            "splits": "https://hksplitmaker.com/?builtin=a1uba",
-            "splitsalt": "https://hksplitmaker.com/?builtin=al2ba",
+            "notes": {"Al2uba% Notes": "https://pastebin.com/j3i4uV16"},
+            "splits": {
+                "A1uba% Splits":"https://hksplitmaker.com/?builtin=a1uba",
+                "Al2ba% Splits": "https://hksplitmaker.com/?builtin=al2ba"
+            },
             "1432": {
                 "al1uba":{
 
                 },
                 "al2uba":{
-
+                    
                 }
             },
             "NMG": {
@@ -212,21 +265,30 @@
     },
     "7": {
         "category": {
+            "categoryCount": 1,
             "name": "PoP%",
             "description": "",
-            "notes": "https://pastebin.com/KZSZd7XE",
-            "splits": "https://hksplitmaker.com/?builtin=pop-percent",
+            "notes": {"Route Notes":"https://pastebin.com/KZSZd7XE"},
+            "splits": {"Splits":"https://hksplitmaker.com/?builtin=pop-percent"},
             "1432": {
+                "leaderboard":{
 
+                }
             },
             "NMG": {
+                "leaderboard":{
 
+                }
             },
             "NMMS": {
+                "leaderboard":{
 
+                }
             },
             "AG": {
+                "leaderboard":{
 
+                }
             }
         },
         "IL": {
@@ -238,7 +300,63 @@
             }
         },
         "runners": 0
-    }
-
+    },
+    "template": {
+        "category": {
+            "name": "8 Mask Shards",
+            "description": "",
+            "notes": {
+                    "8MS Route": "https://pastebin.com/ptWLryuc",
+                    "8MS FC Stag Route": "https://pastebin.com/fTb71NVd"
+            },
+            "splits": {
+                "8MS Route": "https://hksplitmaker.com/?builtin=8ms",
+                "8MS FC Stag Route": "https://hksplitmaker.com/?builtin=8ms-fc-stag"
+            },
+            "1432": {
+                "leaderboard":{
     
+                }
+            },
+            "NMG": {
+                "leaderboard":{
+    
+                }
+            },
+            "NMMS": {
+                "leaderboard":{
+    
+                }
+            },
+            "AG": {
+                "leaderboard":{
+    
+                }
+            },
+        "rando": {
+            "name": "Save the Grubs",
+            "description": "",
+            "link": "https://discord.com/channels/772964112908156938/984299374937006132/1226560152484839556",
+            "leaderboard": {
+                
+            }
+        },
+        "randohard": {
+            "name": "not sure yet oops",
+            "description": "",
+            "leaderboard":{
+                
+            }
+        },
+        "IL": {
+            "name": "",
+            "description": "",
+            "wr": "",
+            "leaderboard": {
+    
+            }
+        },
+        "runners": 0
+        }
+    }
 }
