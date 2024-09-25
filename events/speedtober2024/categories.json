@@ -3,7 +3,7 @@
         "category": {
             "categoryCount": 1,
             "name": "Grubsong",
-            "description": "",
+            "description": "Save 10 grubs to win a super cute prize. Batteries not included.",
             "notes": {"Route Notes":"https://pastebin.com/4nK0dMSp"},
             "splits": {"Splits":"https://hksplitmaker.com/?builtin=grubsong"},
             "1432": {
@@ -29,7 +29,7 @@
         },
         "rando": {
             "name": "Lever Adventure",
-            "description": "",
+            "description": "A good introduction to plandos that is inclusive of all skill levels! Lever adventure is all about lever rando and routing. Yippee!",
             "link": "https://discord.com/channels/772964112908156938/984299374937006132/984313649319514182",
             "leaderboard": {
                 
@@ -56,7 +56,7 @@
         "category": {
             "categoryCount": 1,
             "name": "Pure Snail",
-            "description": "",
+            "description": "Equip spore shroom, baldur shell, quick focus, and shape of unn to awaken the pure snail inside you!",
             "notes": {"Route Notes":"https://pastebin.com/4nK0dMSp"},
             "splits": {"Splits": "https://hksplitmaker.com/?builtin=pure-snail"},
             "1432": {
@@ -94,7 +94,7 @@
         "category": {
             "categoryCount": 1,
             "name": "3 Vessel Fragments",
-            "description": "",
+            "description": "Contrary to popular belief, it does NOT stand for '3 vengeflies'.",
             "notes": {
                 "King's Station Route": "https://pastebin.com/ZqDk8rQ0",
                 "Stag Nest Route": "https://pastebin.com/4mE0UWtG"
@@ -138,7 +138,7 @@
         "category": {
             "categoryCount": 1,
             "name": "4 Mask Shards",
-            "description": "",
+            "description": "Get 4 mask shards for the fourth day! Yippee!",
             "notes": {"Route Notes":"https://pastebin.com/YZf8CZAd"},
             "splits": {"Splits":"https://hksplitmaker.com/?builtin=4ms"},
             "1432": {
@@ -176,7 +176,7 @@
         "category": {
             "categoryCount": 1,
             "name": "5 Mimics",
-            "description": "",
+            "description": "Kill all 5 mimics, with or without fury colos.",
             "notes": {"Route Notes":"https://pastebin.com/0KVWK3cg"},
             "splits": {"Splits":"https://hksplitmaker.com/?builtin=5-mimics"},
             "1432": {
@@ -214,7 +214,7 @@
         "category": {
             "categoryCount": 2,
             "name": "Al1ba/Al2ba",
-            "description": "",
+            "description": "Kill (two different) aluba(s).",
             "notes": {"Al2uba% Notes": "https://pastebin.com/j3i4uV16"},
             "splits": {
                 "A1uba% Splits":"https://hksplitmaker.com/?builtin=a1uba",
@@ -267,7 +267,7 @@
         "category": {
             "categoryCount": 1,
             "name": "PoP%",
-            "description": "",
+            "description": "A fun category that ends in the best area of the game! Start from a fresh save file and then yippee path of pain yippee yippee yippee yippee yippee yippee yippee yippee",
             "notes": {"Route Notes":"https://pastebin.com/KZSZd7XE"},
             "splits": {"Splits":"https://hksplitmaker.com/?builtin=pop-percent"},
             "1432": {
@@ -293,7 +293,7 @@
         },
         "IL": {
             "name": "Path of Pain",
-            "description": "",
+            "description": "Stick to PoP",
             "wr": "https://www.speedrun.com/hollowknight/runs/m7n8r45z",
             "leaderboard":{
                 
@@ -304,7 +304,7 @@
     "8": {
         "category": {
             "name": "8 Mask Shards",
-            "description": "",
+            "description": "Get 4 mask shards 2 times in 1 run for the 8th day. Yippe",
             "notes": {
                     "8MS Route": "https://pastebin.com/ptWLryuc",
                     "8MS FC Stag Route": "https://pastebin.com/fTb71NVd"
@@ -335,7 +335,7 @@
             },
         "rando": {
             "name": "Save the Grubs",
-            "description": "",
+            "description": "Save the grubbies!!! This plando adds many more grubs to the game who are in need of saving. The intended goal is to defeat Collector and obtain the Collector's Map at the top of Tower of Love, but you could also keep going and save all 247 grubbies meemawmaw!!!",
             "link": "https://discord.com/channels/772964112908156938/984299374937006132/1226560152484839556",
             "leaderboard": {
                 
@@ -363,7 +363,7 @@
         "category": {
             "categoryCount": 1,
             "name": "Cartographer",
-            "description": "",
+            "description": "AKA 'Dapper Mapper'. Buy all of Cornifer's maps and go visit him at Iselda's shop as he snoozes peacefully.",
             "notes": {"Route Notes":"https://pastebin.com/DMHJxF7x"},
             "splits": {"Splits":"https://hksplitmaker.com/?builtin=cartographer"},
             "1432": {
