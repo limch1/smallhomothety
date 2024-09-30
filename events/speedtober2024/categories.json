@@ -60,9 +60,9 @@
             "notes": {"Route Notes":"https://pastebin.com/4nK0dMSp"},
             "splits": {"Splits": "https://hksplitmaker.com/?builtin=pure-snail"},
             "1432": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "NMG": {
                 "leaderboard":{
@@ -315,9 +315,11 @@
                 "8MS FC Stag Route": "https://hksplitmaker.com/?builtin=8ms-fc-stag"
             },
             "1432": {
-                "leaderboard":{
-    
-                }
+                "leaderboard":[
+                    {"name": "vichisuki", "time": "00:24:25"},
+                    {"name": "vichisuki but evil", "time":"00:59:59"},
+                    {"name": "kuro shi ninety four", "time": "00:01:00"}
+                ]
             },
             "NMG": {
                 "leaderboard":{
