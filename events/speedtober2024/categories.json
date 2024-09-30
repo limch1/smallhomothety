@@ -7,24 +7,24 @@
             "notes": {"Route Notes":"https://pastebin.com/4nK0dMSp"},
             "splits": {"Splits":"https://hksplitmaker.com/?builtin=grubsong"},
             "1432": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "NMG": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "NMMS": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "AG": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             }
         },
         "rando": {
@@ -65,19 +65,19 @@
                 ]
             },
             "NMG": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "NMMS": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "AG": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             }
         },
         "IL": {
@@ -104,24 +104,24 @@
                 "Stag Nest Route": "https://hksplitmaker.com/?builtin=3vf-stag-nest"
             },
             "1432": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "NMG": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "NMMS": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "AG": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             }
         },
         "IL": {
@@ -142,24 +142,24 @@
             "notes": {"Route Notes":"https://pastebin.com/YZf8CZAd"},
             "splits": {"Splits":"https://hksplitmaker.com/?builtin=4ms"},
             "1432": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "NMG": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "NMMS": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "AG": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             }
         },
         "IL": {
@@ -180,24 +180,24 @@
             "notes": {"Route Notes":"https://pastebin.com/0KVWK3cg"},
             "splits": {"Splits":"https://hksplitmaker.com/?builtin=5-mimics"},
             "1432": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "NMG": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "NMMS": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "AG": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             }
         },
         "IL": {
@@ -271,24 +271,24 @@
             "notes": {"Route Notes":"https://pastebin.com/KZSZd7XE"},
             "splits": {"Splits":"https://hksplitmaker.com/?builtin=pop-percent"},
             "1432": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "NMG": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "NMMS": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "AG": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             }
         },
         "IL": {
@@ -322,19 +322,21 @@
                 ]
             },
             "NMG": {
-                "leaderboard":{
-    
-                }
+                "leaderboard":[
+                    {"name": "vichisuki", "time": "00:24:25"},
+                    {"name": "vichiasgdsadg", "time":"00:59:59"},
+                    {"name": "kuro sheeee", "time": "00:01:00"}
+                ]
             },
             "NMMS": {
-                "leaderboard":{
+                "leaderboard":[
     
-                }
+                ]
             },
             "AG": {
-                "leaderboard":{
+                "leaderboard":[
     
-                }
+                ]
             }
         },
         "rando": {
@@ -370,24 +372,24 @@
             "notes": {"Route Notes":"https://pastebin.com/DMHJxF7x"},
             "splits": {"Splits":"https://hksplitmaker.com/?builtin=cartographer"},
             "1432": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "NMG": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "NMMS": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "AG": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             }
         },
         "IL": {
@@ -408,24 +410,24 @@
             "notes": {"Route Notes":"https://pastebin.com/DMHJxF7x"},
             "splits": {"Splits":"https://hksplitmaker.com/?builtin=cartographer"},
             "1432": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "NMG": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "NMMS": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             },
             "AG": {
-                "leaderboard":{
+                "leaderboard":[
 
-                }
+                ]
             }
         },
         "IL": {

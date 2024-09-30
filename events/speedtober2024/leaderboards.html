@@ -31,7 +31,42 @@
   <meta property="og:url" content="https://www.smallhomothetyorganization.org/events" />
   <meta property="og:image" itemprop="image primaryImageOfPage" content="https://www.smallhomothetyorganization.org/images/grubby.png" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="leaderboards.js"></script>
   <style media="screen">
+    h3, h4, a{
+      font-family: 'Josefin Sans', sans-serif;
+      line-height: 5px;
+    }
+    h3 {
+      text-align: center; 
+    }
+    .speedtober-box {
+      padding-top: 10px;
+      width: 400px;
+      border-style: dotted;
+      border-radius: 10px;
+      border-width: 5px;
+      border: 5px dotted #e4e1ff;
+      margin:auto
+    }
+    .h2-smaller {
+      font-family: "Rubik", sans-serif;
+    }
+    label{
+      font-size: 16px;
+      font-family: "Rubik", sans-serif;
+    }
+    input[type=submit]{
+      background-color: transparent;
+      padding: 16px;
+      font-size: 20px;
+      border: none;
+      font-family: "Josefin Sans", sans-serif;
+      cursor: pointer;
+    }
+    input[type=submit]:hover{
+      background-color: #d0cbff;
+    }
   </style>
 </head>
 
@@ -45,7 +80,83 @@
     </div>
 
     <!--TODO: add case for multiple leaderboards per day-->
-  
 
+    <div id="main-container">
+      <div id="events-container-container">
+        <div id="events-container">
+          <script>
+            $(document).ready(function() {
+              $("#events-list").load("/eventsnav.html");
+            });
+          </script>
+          <div id="events-list">
+          </div>
+          <div class="events" style="width:75%">
+            <h1 id="header">Speedtober 2024 Leaderboards</h1>
+            <div id="body">
+            
+            <div class="schedule-list">
+              <h2 id="categoryName">e</h2>
+              <h4 id="route"></h4>
+              <h4 id="splits"></h4>
+              <h3 id="option"></h3>
+              <p id="description"></p>
+                <table id="boards" style="margin:auto">
+                  <thead id="boardhead">
+                    <th>#</th>
+                    <th>Player</th>
+                    <th>Time</th>
+                  </thead>
+                  <tbody id="boardBody">
+                  </tbody>
+                </table>
+              <button id="1432" class="submenubtn" onclick="changeRules('1432')">1.4.3.2</button>
+              <button id="NMG" class="submenubtn" onclick="changeRules('NMG')">NMG</button>
+              <button id="NMMS" class="submenubtn" onclick="changeRules('NMMS')">NMMS</button>
+              <button id="AG" class="submenubtn" onclick="changeRules('AG')">NMG</button>
+              </div>
+          </div>
+          <form>
+            <h2>Submit a Run!</h2>
+            <div class="speedtober-box" id="regular" style="background:
+            linear-gradient(#e4e1ff 0 0) padding-box,
+            linear-gradient(to right, #E583AB, #83abe5, #E583AB, #83abe5) border-box">
+              <h2 class="h2-smaller">Submission Form</h2>
+              <table style="margin:auto; text-align: left;">
+                <tr>
+                  <td><label for="username">Username:</label></td>
+                  <td><input type="text" id="username" name="username" required></td>
+                </tr>
+                <tr>
+                  <td><label for="ruleset">Run Type:</label></td>
+                  <td>
+                    <select name="ruleset" id="ruleset">
+                      <option value="1432" selected="selected">1.4.3.2</option>
+                      <option value="NMG">NMG (1.2.2.1)</option>
+                      <option value="NMMS">NMMS</option>
+                      <option value="AG">AG</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="time">Time:</label></td>
+                  <td><input type="text" id="time" name="time" required pattern="^(?:(?:([01]?\d|2[0-3]):)?([0-5]?\d):)?([0-5]?\d)$" placeholder="00:00:00" title="Write a duration in the format hh:mm:ss"></td>
+                </tr>
+              </table>
+              <input type="submit" value="Submit">
+            </div>
+            
+          </form>
+          
+      </div>
+    </div>
 
+  <script>
+    $(document).ready(function(){
+        $("#footer").load("/footer.html");
+    });
+  </script>
+  <div id="footer"> </div>
+  </div>
 </body>
+</html>

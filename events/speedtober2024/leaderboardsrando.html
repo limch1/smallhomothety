@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Events</title>
+  <link rel="stylesheet" href="/stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Rubik&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- for discord embeds-->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Events" />
+  <meta property="og:description" content="Learn all about the community-led speedrunning and randomizer events for Hollow Knight." />
+  <meta property="og:url" content="https://www.smallhomothetyorganization.org/events" />
+  <meta property="og:image" itemprop="image primaryImageOfPage" content="https://www.smallhomothetyorganization.org/images/grubby.png" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <style media="screen">
+    h3, h4{
+      font-family: 'Josefin Sans', sans-serif;
+      line-height: 5px;
+    }
+    h3 {
+      text-align: center; 
+    }
+  </style>
+</head>
+
+<body>
+    <script>
+      $(document).ready(function() {
+        $("#navbar").load("/nav.html");
+      });
+    </script>
+    <div id="navbar">
+    </div>
+
+    <!--TODO: add case for multiple leaderboards per day-->
+
+    <div id="main-container">
+      <div id="events-container-container">
+        <div id="events-container">
+          <script>
+            $(document).ready(function() {
+              $("#events-list").load("/eventsnav.html");
+            });
+          </script>
+          <div id="events-list">
+          </div>
+          <div class="events" style="width:75%">
+            <h1 id="header">Speedtober 2024 Rando Leaderboards</h1>
+            <div id="body">
+                <h2>Rules</h2>
+                <p>Use the navigator above to navigate to the day that you want to speedrun for, then use the form to submit your time.</p>
+                <p>Please do not spam the forms! You will get one entry per day.</p>
+                <div class="schedule-list">
+                    <h2 id="randoName">e</h2>
+                    <h4 id="plandoLink">Download Link</h4>
+                    <a href="/rando/plandoguide.html"><h4>How to setup a plando?</h4></a>
+                    <h3 id="option"></h3>
+                        <table id="1432boards" style="margin:auto">
+                            <thead id="1432head">
+                                <th>#</th>
+                                <th>Player</th>
+                                <th>Time</th>
+                                <th>Played Before?</th>
+                            </thead>
+                        </table>
+                    <button class="submenubtn" onclick="location.href='/events/speedtober2024'">Back to Navigator</button>
+                </div>
+        </div>
+      </div>
+    </div>
+
+  <script>
+    $(document).ready(function(){
+        $("#footer").load("/footer.html");
+    });
+  </script>
+  <div id="footer"> </div>
+  </div>
+</body>
+</html>
