@@ -100,8 +100,8 @@
         </p>
         <p>Speedtober is also a challenge for runners to try and complete a run every day for the entire month of October! Of course, you can participate in as many or as little days as you want.</p>
         <p>This year, we're creating this webpage to show leaderboards and resources for each category for each day of the month! You can optionally submit your runs through the leaderboard form on this website, or you can just join our <a href="https://discord.com/invite/3JtHPsBjHD">discord</a> and talk about it in the daily threads!</p>
-        <button class="submenubtn" onclick="location.href='/events/speedtober2024/leaderboards.html'">Leaderboards</button>
-        <button class="submenubtn" onclick="location.href='/404.html'">Speedtober Google Sheet</button>
+        <!-- <button class="submenubtn" onclick="location.href='/events/speedtober2024/leaderboards.html'">Leaderboards</button> -->
+        <!-- <button class="submenubtn" onclick="location.href='/404.html'">Speedtober Google Sheet</button> -->
 
         <div class="schedule-list">
           <h2>Speedtober Navigator</h2>
@@ -121,8 +121,9 @@
               </tbody>
             </table>
           </div>
-          <button class="submenubtn" style="margin-left:35%" onclick=lastWeek()>Previous Week</button>
-          <button class="submenubtn" style="margin-left:5%" onclick=nextWeek()>Next Week</button>
+          <button id="lastWeek" class="submenubtn" style="margin-left:35%" onclick=lastWeek()>Previous Week</button>
+          <button id="nextWeek" class="submenubtn" style="margin-left:5%" onclick=nextWeek()>Next Week</button>
+          <!-- <button id="nextWeek" class="submenubtn" style="margin-left:5%" onclick=testing()>testing button</button> -->
         </div>
 
         <h2>Rules</h2>

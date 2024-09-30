@@ -303,6 +303,7 @@
     },
     "8": {
         "category": {
+            "categoryCount": 1,
             "name": "8 Mask Shards",
             "description": "Get 4 mask shards 2 times in 1 run for the 8th day. Yippe",
             "notes": {
@@ -332,7 +333,8 @@
                 "leaderboard":{
     
                 }
-            },
+            }
+        },
         "rando": {
             "name": "Save the Grubs",
             "description": "Save the grubbies!!! This plando adds many more grubs to the game who are in need of saving. The intended goal is to defeat Collector and obtain the Collector's Map at the top of Tower of Love, but you could also keep going and save all 247 grubbies meemawmaw!!!",
@@ -349,15 +351,14 @@
             }
         },
         "IL": {
-            "name": "",
-            "description": "",
-            "wr": "",
-            "leaderboard": {
-    
+            "name": "Path of Pain",
+            "description": "Stick to PoP",
+            "wr": "https://www.speedrun.com/hollowknight/runs/m7n8r45z",
+            "leaderboard":{
+                
             }
         },
         "runners": 0
-        }
     },
     "9": {
         "category": {

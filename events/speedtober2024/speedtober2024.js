@@ -41,22 +41,38 @@ class scheduleDay {
 
 }
 
+let tableWeek = 1;
+const date = new Date()
+let currDay = 9//date.getDate()
+let currMonth = 10//date.getMonth()
+
+function testing(){
+    fetch('speedtober2024/categories.json')
+        .then(res => res.json())
+        .then(data =>{
+            console.log(JSON.stringify(data["8"]["rando"]))
+        });
+}
+
 function nextWeek(){
 
     let weekHeader = document.getElementById("weekName")
 
-    if (tableWeek < 4){
+    currDate = currDay
+    maxWeek = Math.floor(currDay/7) + 1
+
+    if (tableWeek < maxWeek){
+        document.getElementById("lastWeek").disabled = false
         tableWeek += 1
-        populateTables(1 + ((7*tableWeek) - 7), 7 + (tableWeek*7 - 7))
-        console.log(1 + ((7*tableWeek) - 7), 7 + (tableWeek*7 - 7))
+        start = 1 + ((7*tableWeek) - 7)
+        if (tableWeek == 4 || tableWeek == maxWeek){
+            end = currDate
+            document.getElementById("nextWeek").disabled = true
+        } else {
+            end = (7*tableWeek)
+        }
+        populateTables(start, end)
         weekHeader.textContent = "Week " + tableWeek.toString()
-    } else if (tableWeek == 4) {
-        tableWeek += 1
-        populateTables(1 + ((7*tableWeek) - 7), 31)
-        console.log(1 + ((7*tableWeek) - 7), 31)
-        weekHeader.textContent = "Week " + tableWeek.toString()
-    } else if (tableWeek === 5){
-        tableWeek = 5
     }
     
 }
@@ -65,17 +81,23 @@ function lastWeek(){
 
     let weekHeader = document.getElementById("weekName")
 
+    currDate = date.getDate()
+
     if (tableWeek > 1){
+        document.getElementById("nextWeek").disabled = false
         tableWeek -= 1
-        populateTables(1 + ((7*tableWeek) - 7), 7 + (tableWeek*7 - 7))
-        console.log(1 + ((7*tableWeek) - 7), 7 + (tableWeek*7 - 7))
+        start = 1 + ((7*tableWeek) - 7)
+        end = 7 * tableWeek
         weekHeader.textContent = "Week " + tableWeek.toString()
-    } else if (tableWeek === 1){
-        tableWeek = 1
+        if (tableWeek == 1){
+            document.getElementById("lastWeek").disabled = true
+        }
+        populateTables(start, end)
     }
+
+
 }
 
-let tableWeek = 1;
 
 function populateTables(start, end){
     fetch('speedtober2024/categories.json')
@@ -105,6 +127,27 @@ function populateTables(start, end){
 }
 
 window.addEventListener("DOMContentLoaded", () => {
+    
+    document.getElementById("lastWeek").disabled = true
+
+    month = currMonth
+    day = currDay
+    if (month < 10){
+        end = 2 
+    } else if (day > 7){
+        end = 7
+    } else {
+        end = day + 1
+    }
+
+    if (tableWeek == 1){
+        if (day < 7 || month < 10){
+            document.getElementById("nextWeek").disabled = true
+        } else {
+            document.getElementById("nextWeek").disabled = false
+        }
+    }
+
     tableWeek = 1;
-    populateTables(1, 7);
+    populateTables(1, end);
 })
